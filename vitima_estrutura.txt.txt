@@ -1,0 +1,32 @@
+exercicio 18:
+
+print("telefonou para a vítima?")
+fone = input("sim ou não?")
+cont=0
+if fone=="sim":
+    cont=cont+1
+print("esteve no local da vítima?")
+local= input("sim ou não?")
+if local=="sim":
+    cont=cont+1
+print("mora perto da vítima?")
+mora = input("sim ou não?")
+if mora=="sim":
+    cont=cont+1
+print("devia para a vítima?")
+devia = input("sim ou não?")
+if devia=="sim":
+    cont=cont+1
+print (" ja trabalhou com a vítima?")
+trabalhou =input("sim ou não?")
+if trabalhou=="sim":
+    cont=cont+1
+
+
+if cont==2 or cont==1:
+    print("suspeito")
+elif cont==3 or cont==4:
+    
+    print("cumplice")
+elif cont==5:
+    print("assassino")
